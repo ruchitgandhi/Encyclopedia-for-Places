@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ruchit.placessearch.DetailsActivity">
+    <!--<item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+-->
+    <item
+        android:id="@+id/action_bar_twitter"
+        android:icon="@drawable/twitter"
+        android:title="twitter"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_bar_favorite"
+        android:icon="@drawable/heart_white_outline"
+        android:title="fav"
+        app:showAsAction="ifRoom"/>
+</menu>
